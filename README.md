@@ -1,5 +1,3 @@
-# TaskMin-Final-Project
+# MinTask
 
-By Joseph Holzman and Henry Arthur
-
-This repository holds the source code for TaskMin, a dynamic web-based calendar.
+MinTask is a web based calendar and task manager created by Joey Holzman and Henry Arthur
