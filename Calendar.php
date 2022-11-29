@@ -9,7 +9,7 @@ body {font-family: Verdana, sans-serif;}
 .month {
   padding: 70px 25px;
   width: 100%;
-  background: #1abc9c;
+  background: #383838;
   text-align: center;
 }
 
@@ -20,7 +20,7 @@ body {font-family: Verdana, sans-serif;}
 
 .month ul li {
   color: white;
-  font-size: 20px;
+  font-size: 24px;
   text-transform: uppercase;
   letter-spacing: 3px;
 }
@@ -49,7 +49,7 @@ body {font-family: Verdana, sans-serif;}
 }
 
 .days {
-  padding: 10px 0;
+  padding: 12px 0;
   background: #eee;
   margin: 0;
 }
@@ -61,7 +61,7 @@ body {font-family: Verdana, sans-serif;}
   text-align: center;
   margin-bottom: 5px;
   font-size:12px;
-  color: #777;
+  color: #000000;
 }
 
 .days li .active {
@@ -70,32 +70,25 @@ body {font-family: Verdana, sans-serif;}
   color: white !important
 }
 
-/* Add media queries for smaller screens */
-@media screen and (max-width:720px) {
-  .weekdays li, .days li {width: 13.1%;}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-@media screen and (max-width: 420px) {
-  .weekdays li, .days li {width: 12.5%;}
-  .days li .active {padding: 2px;}
-}
-
-@media screen and (max-width: 290px) {
-  .weekdays li, .days li {width: 12.2%;}
-}
 </style>
 </head>
 <body>
 
-<h1>Welcome, </h1>
+<img src="MinLogo1.png" width="400" height="120" class="center"><br>
 
 <div class="month">
   <ul>
     <li class="prev">&#10094;</li>
     <li class="next">&#10095;</li>
     <li>
-      August<br>
-      <span style="font-size:18px">2021</span>
+      November<br>
+      <span style="font-size:18px">2022</span>
     </li>
   </ul>
 </div>
@@ -111,37 +104,42 @@ body {font-family: Verdana, sans-serif;}
 </ul>
 
 <ul class="days">
-  <li>1</li>
-  <li>2</li>
-  <li>3</li>
-  <li>4</li>
-  <li>5</li>
-  <li>6</li>
-  <li>7</li>
-  <li>8</li>
-  <li>9</li>
-  <li><span class="active">10</span></li>
-  <li>11</li>
-  <li>12</li>
-  <li>13</li>
-  <li>14</li>
-  <li>15</li>
-  <li>16</li>
-  <li>17</li>
-  <li>18</li>
-  <li>19</li>
-  <li>20</li>
-  <li>21</li>
-  <li>22</li>
-  <li>23</li>
-  <li>24</li>
-  <li>25</li>
-  <li>26</li>
-  <li>27</li>
-  <li>28</li>
-  <li>29</li>
-  <li>30</li>
-  <li>31</li>
+  <li><a href="Tasks.php">31</a></li>
+  <li><a href="Tasks.php">1</a></li>
+  <li><a href="Tasks.php">2</a></li>
+  <li><a href="Tasks.php">3</a></li>
+  <li><a href="Tasks.php">4</a></li>
+  <li><a href="Tasks.php">5</a></li>
+  <li><a href="Tasks.php">6</a></li>
+  <li><a href="Tasks.php">7</a></li>
+  <li><a href="Tasks.php">8</a></li>
+  <li><a href="Tasks.php">9</a></li>
+  <li><a href="Tasks.php">10</a></li>
+  <li><a href="Tasks.php">11</a></li>
+  <li><a href="Tasks.php">12</a></li>
+  <li><a href="Tasks.php">13</a></li>
+  <li><a href="Tasks.php">14</a></li>
+  <li><a href="Tasks.php">15</a></li>
+  <li><a href="Tasks.php">16</a></li>
+  <li><a href="Tasks.php">17</a></li>
+  <li><a href="Tasks.php">18</a></li>
+  <li><a href="Tasks.php">19</a></li>
+  <li><a href="Tasks.php">20</a></li>
+  <li><a href="Tasks.php">21</a></li>
+  <li><a href="Tasks.php">22</a></li>
+  <li><a href="Tasks.php">23</a></li>
+  <li><a href="Tasks.php">24</a></li>
+  <li><a href="Tasks.php">25</a></li>
+  <li><a href="Tasks.php">26</a></li>
+  <li><a href="Tasks.php">27</a></li>
+  <li><a href="Tasks.php">28</a></li>
+  <li><a href="Tasks.php">29</a></li>
+  <li><a href="Tasks.php">30</a></li>
+  <li><a href="Tasks.php">1</a></li>
+  <li><a href="Tasks.php">2</a></li>
+  <li><a href="Tasks.php">3</a></li>
+  <li><a href="Tasks.php">4</a></li>
+
 </ul>
 
 </body>
