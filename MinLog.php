@@ -12,9 +12,10 @@
         <div class="row vh-100 align-items-center justify-content-center">
           <div class="col-lg-4 col-md-6 col-lg-5 bg-white rounded p-4 shadow-lg">
             <div class="row justify-center-content mb-4">
-                <img src="MinLogo1.png" class="w-100" />
+                <img src="MinTask Logo.png" class="w-100" />
               </div>
-              <form action="processLogin.php" method="post">
+              <!--POST to processLogin.php and Calendar.php-->
+              <form action="Calendar.php" method="post">
                   <div class="mb-4">
                     <label for="username" class="form-label">User Name:</label>
                     <input type="username" name="username" class="form-control" id="username">
@@ -25,7 +26,7 @@
                 </div>
                 <button type="submit" name="login" class="btn btn-dark w-100">Login</button>
               </form>
-              <p class="mb-0 text-center">Don't have an account? <a href="Register.html" class="text-decoration-none">Register!</p>
+              <p class="mb-0 text-center">Don't have an account? <a href="Register.htm" class="text-decoration-none">Register!</a></p>
             </div>
           </div>
         </div>
