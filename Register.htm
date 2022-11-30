@@ -1,5 +1,6 @@
 <!-- This is the user register Page for mintask -->
 <!-- associated with process.php to make data base calls on user form submit -->
+
 <html>
 <br>
 <br>
@@ -15,13 +16,14 @@
             <div class="row justify-center-content mb-4">
                 <img src="MinRegister.png" class="w-100" />
               </div>
+
               <form action="process.php" method="post">
                 <div class="mb-4">
                 <center><b><label for="Register" class="form-label"><h5>&#10070; Register for MinTask &#10070;</h5></label></b></center>
                 </div>
                   <div class="mb-4">
-                    <label for="UserName" class="form-label">User Name:</label>
-                    <input type="UserName" name="username" class="form-control" id="username">
+                    <label for="username" class="form-label">User Name:</label>
+                    <input type="username" name="username" class="form-control" id="username">
                   </div>
                   <div class="mb-4">
                   <label for="password" class="form-label">Password:</label>
@@ -29,7 +31,8 @@
                 </div>
                 <button type="submit" name="register" class="btn btn-dark w-100">Register!</button>
               </form>
-              <p class="mb-0 text-center"><a href="MinLog.html" class="text-decoration-none">Back to Log In Page.</p>
+
+              <p class="mb-0 text-center"><a href="MinLog.php" class="text-decoration-none">Back to Log In Page.</p>
             </div>
           </div>
         </div>
