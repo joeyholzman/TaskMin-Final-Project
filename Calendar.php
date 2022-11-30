@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- Homepage after login, displays month calendar with clickable days -->
 <html>
 <head>
 <style>
