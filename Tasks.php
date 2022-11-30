@@ -1,4 +1,4 @@
-<!-- ! press tab -->
+<!-- Task page where users can enter new items on agenda -->
 <!DOCTYPE html>
 <html>
 <head>
