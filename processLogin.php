@@ -1,33 +1,29 @@
 <?php
+
     require_once('config.php');
 
     if(isset($_POST['login']))
     {
-      if(isset($_POST["username"])){
-        $Username = mysqli_real_escape_string($conn,$_POST['username']);
-      }
-
-      if(isset($_POST["password"])){
+        $UserName = mysqli_real_escape_string($conn,$_POST['username']);
         $Password = mysqli_real_escape_string($conn,$_POST['password']);
-      }
 
-      $finder = $Username.$Password;
+      $sql = "SELECT * FROM login WHERE Username='$UserName' AND Password='$Password'";
+      $result = mysqli_query($conn,$sql);
 
-      $sql = "SHOW TABLES";
-      $result = mysqli_query($conn, $sql);
+      if (mysqli_num_rows($result) === 1) {
 
+          $row = mysqli_fetch_assoc($result);
 
-      if($result){
-        while($row = $result->fetch_assoc()){
-          if($row["Tables_in_mintask"] == $finder){
-            header('Location: Calendar.php');
-            exit();
-          }
+          if ($row['Username'] === $UserName && $row['Password'] === $Password) {
+
+          header('Location: Calendar.php');
+          exit();
         }
       }
       else {
-        header('Location: MinLog.html');
+        header('Location: Register.html');
         exit();
-    }
+      }
+
   }
 ?>

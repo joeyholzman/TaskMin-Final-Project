@@ -1,5 +1,4 @@
-<!-- ! press tab -->
-<!DOCTYPE html>
+<!-- Task page where users can enter new items on agenda -->
 <html>
 <head>
 <title>ToDo List</title>
