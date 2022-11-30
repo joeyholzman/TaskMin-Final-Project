@@ -1,3 +1,4 @@
+<!-- creates unique table for user with columns for adding new tasks or events -->
 
 <?php
 
