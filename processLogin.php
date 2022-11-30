@@ -8,6 +8,8 @@
       if(isset($_POST["username"])){
         $Username = mysqli_real_escape_string($conn,$_POST['username']);
       }
+        
+        #escape string only reads in SQL valid characters
 
       if(isset($_POST["password"])){
         $Password = mysqli_real_escape_string($conn,$_POST['password']);
