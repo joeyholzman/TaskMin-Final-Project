@@ -61,7 +61,7 @@ body {font-family: Verdana, sans-serif;}
 .month {
   padding: 70px 25px;
   width: 100%;
-  background: #1abc9c;
+  background: #303030;
   text-align: center;
 }
 
@@ -166,6 +166,8 @@ body {font-family: Verdana, sans-serif;}
 
 <ul class="days">
   <form action="dayview.php" method="post">
+  <li><input type="radio" id="31" name="day" value="31">
+    <label for="31">31</label><br>
   <li><input type="radio" id="1" name="day" value="1">
     <label for="1">1</label><br>
   <li><input type="radio" id="2" name="day" value="2">
@@ -226,8 +228,6 @@ body {font-family: Verdana, sans-serif;}
     <label for="29">29</label><br>
   <li><input type="radio" id="30" name="day" value="30">
     <label for="30">30</label><br>
-  <li><input type="radio" id="31" name="day" value="31">
-    <label for="31">31</label><br>
   <li><input type = "submit" name = "submit" value = "View Day"></button><li>
 </form>
 </ul>
