@@ -1,5 +1,6 @@
 <!-- creates unique table for user with columns for adding new tasks or events -->
 
+
 <?php
 
     require_once('config.php');
@@ -9,8 +10,6 @@
         if(isset($_POST["username"])){
           $Username = mysqli_real_escape_string($conn,$_POST['username']);
         }
-        
-        #escape string only reads in SQL valid characters
 
         if(isset($_POST["password"])){
           $Password = mysqli_real_escape_string($conn,$_POST['password']);
@@ -20,13 +19,9 @@
         $finder = $Username.$Password;
 
         $query = "CREATE TABLE $finder
-        (ET text,
+        (day int,
         title text,
-        descrip text,
-        startDate int,
-        startTime int,
-        endDate int,
-        endTime int
+        descrip text
         )";
 
         if($Username == "" or $Password == ""){
@@ -38,7 +33,7 @@
 
         if($result)
         {
-        header('Location: MinLog.html');
+        header('Location: MinLog.php');
 
         }
         else
