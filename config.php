@@ -1,3 +1,5 @@
+<!-- called by process php files to reduce redundency -->
+<!-- creates initial database connection -->
 <?php
   $db_host = 'localhost';
   $db_user = 'root';
