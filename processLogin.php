@@ -1,3 +1,5 @@
+<!-- login validation by searching for unique user table created in register -->
+
 <?php
     require_once('config.php');
 
